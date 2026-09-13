@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="Bug Bounty — All Platforms">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0E14"/>
+      <stop offset="0.55" stop-color="#0C1120"/>
+      <stop offset="1" stop-color="#0A0D13"/>
+    </linearGradient>
+    <radialGradient id="glowGold" cx="0.82" cy="0.1" r="0.7">
+      <stop offset="0" stop-color="#E7B24C" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#E7B24C" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowTeal" cx="0.05" cy="0.9" r="0.6">
+      <stop offset="0" stop-color="#5EC8D8" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#5EC8D8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F0C878"/>
+      <stop offset="1" stop-color="#E7B24C"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#2A3346" stroke-width="1" stroke-opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#grid)"/>
+  <rect width="1280" height="360" fill="url(#glowGold)"/>
+  <rect width="1280" height="360" fill="url(#glowTeal)"/>
+  <rect x="0.5" y="0.5" width="1279" height="359" fill="none" stroke="#232B3B" rx="2"/>
+
+  <!-- decorative shield + bug motif (left) -->
+  <g transform="translate(120,180)">
+    <path d="M0,-92 L74,-64 V0 C74,54 40,86 0,102 C-40,86 -74,54 -74,0 V-64 Z"
+          fill="none" stroke="url(#gold)" stroke-width="4" stroke-opacity="0.9"/>
+    <path d="M0,-70 L56,-48 V0 C56,42 30,66 0,80 C-30,66 -56,42 -56,0 V-48 Z"
+          fill="#E7B24C" fill-opacity="0.06"/>
+    <!-- bug -->
+    <g stroke="url(#gold)" stroke-width="4" stroke-linecap="round" fill="none">
+      <ellipse cx="0" cy="6" rx="20" ry="26" fill="#E7B24C" fill-opacity="0.12"/>
+      <circle cx="0" cy="-22" r="10" fill="#0B0E14"/>
+      <line x1="-6" y1="-30" x2="-14" y2="-42"/>
+      <line x1="6" y1="-30" x2="14" y2="-42"/>
+      <line x1="-20" y1="-4" x2="-38" y2="-14"/>
+      <line x1="-22" y1="8" x2="-40" y2="8"/>
+      <line x1="-20" y1="20" x2="-38" y2="30"/>
+      <line x1="20" y1="-4" x2="38" y2="-14"/>
+      <line x1="22" y1="8" x2="40" y2="8"/>
+      <line x1="20" y1="20" x2="38" y2="30"/>
+      <line x1="0" y1="-12" x2="0" y2="30" stroke-opacity="0.7"/>
+    </g>
+  </g>
+
+  <!-- text block -->
+  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+    <text x="250" y="108" fill="#5EC8D8" font-size="20" letter-spacing="6" font-weight="600">COMMUNITY-POWERED SECURITY INDEX</text>
+    <text x="248" y="188" fill="#EAEEF6" font-size="72" font-weight="800" letter-spacing="-1">Bug Bounty <tspan fill="url(#gold)">All Platforms</tspan></text>
+    <text x="250" y="236" fill="#9AA6B8" font-size="24" font-weight="500">Every bug bounty, VDP, Web3, AI/LLM &amp; acquisition platform — in one place.</text>
+
+    <!-- category pills -->
+    <g font-size="17" font-weight="600">
+      <g transform="translate(250,272)">
+        <rect width="118" height="34" rx="17" fill="#131824" stroke="#232B3B"/>
+        <text x="59" y="23" fill="#F0C878" text-anchor="middle">General</text>
+      </g>
+      <g transform="translate(378,272)">
+        <rect width="150" height="34" rx="17" fill="#131824" stroke="#232B3B"/>
+        <text x="75" y="23" fill="#F0C878" text-anchor="middle">Government</text>
+      </g>
+      <g transform="translate(538,272)">
+        <rect width="94" height="34" rx="17" fill="#131824" stroke="#232B3B"/>
+        <text x="47" y="23" fill="#F0C878" text-anchor="middle">Web3</text>
+      </g>
+      <g transform="translate(642,272)">
+        <rect width="118" height="34" rx="17" fill="#131824" stroke="#232B3B"/>
+        <text x="59" y="23" fill="#F0C878" text-anchor="middle">AI / LLM</text>
+      </g>
+      <g transform="translate(770,272)">
+        <rect width="176" height="34" rx="17" fill="#131824" stroke="#232B3B"/>
+        <text x="88" y="23" fill="#F0C878" text-anchor="middle">+ Playbook &amp; Tools</text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/banner.svg" alt="Bug Bounty — All Platforms" width="100%">
+
 # 🐞 Bug Bounty — All Platforms
 
 **The most complete, community-powered index of every bug bounty, vulnerability disclosure (VDP), and crowdsourced security platform on the Internet — plus the guidance to actually use them.**
